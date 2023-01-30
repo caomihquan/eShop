@@ -3,21 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32630.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eshop.Webapp", "Eshop.Webapp\Eshop.Webapp.csproj", "{B7F4A45F-75A8-4368-9FDE-776B4938ABC4}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eshop.Data", "Eshop.Data\Eshop.Data.csproj", "{70406BA7-F6FA-40D6-9342-65202BF77424}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eshop.Application", "Eshop.Application\Eshop.Application.csproj", "{6E61D687-0BA9-427B-9110-B74187436A92}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eshop.Utilities", "Eshop.Common\Eshop.Utilities.csproj", "{17A5961A-7186-4C4B-A50C-317F2D5182F8}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eshop.ViewModels", "Eshop.ViewModels\Eshop.ViewModels.csproj", "{54E79549-0953-4CD3-BD87-F033D96BA0FA}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eshop.BackendApi", "Eshop.BackendApi\Eshop.BackendApi.csproj", "{BB7D46A4-B37C-475D-B4DA-6071BDD416A5}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eshop.Admin", "Eshop.Admin\Eshop.Admin.csproj", "{F6F1E7E7-AFC0-4C8C-9BF7-292015277B15}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EShop.ApiIntegration", "EShop.ApiIntegration\EShop.ApiIntegration.csproj", "{5F9066AA-5772-4721-9DA4-3430BC1B5DE7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eshop.Webapp", "Eshop.Webapp\Eshop.Webapp.csproj", "{B7F4A45F-75A8-4368-9FDE-776B4938ABC4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,34 +15,6 @@ Global
 		{B7F4A45F-75A8-4368-9FDE-776B4938ABC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7F4A45F-75A8-4368-9FDE-776B4938ABC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7F4A45F-75A8-4368-9FDE-776B4938ABC4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{70406BA7-F6FA-40D6-9342-65202BF77424}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{70406BA7-F6FA-40D6-9342-65202BF77424}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{70406BA7-F6FA-40D6-9342-65202BF77424}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{70406BA7-F6FA-40D6-9342-65202BF77424}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6E61D687-0BA9-427B-9110-B74187436A92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6E61D687-0BA9-427B-9110-B74187436A92}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6E61D687-0BA9-427B-9110-B74187436A92}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6E61D687-0BA9-427B-9110-B74187436A92}.Release|Any CPU.Build.0 = Release|Any CPU
-		{17A5961A-7186-4C4B-A50C-317F2D5182F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{17A5961A-7186-4C4B-A50C-317F2D5182F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{17A5961A-7186-4C4B-A50C-317F2D5182F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{17A5961A-7186-4C4B-A50C-317F2D5182F8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{54E79549-0953-4CD3-BD87-F033D96BA0FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{54E79549-0953-4CD3-BD87-F033D96BA0FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{54E79549-0953-4CD3-BD87-F033D96BA0FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{54E79549-0953-4CD3-BD87-F033D96BA0FA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BB7D46A4-B37C-475D-B4DA-6071BDD416A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BB7D46A4-B37C-475D-B4DA-6071BDD416A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BB7D46A4-B37C-475D-B4DA-6071BDD416A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BB7D46A4-B37C-475D-B4DA-6071BDD416A5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F6F1E7E7-AFC0-4C8C-9BF7-292015277B15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F6F1E7E7-AFC0-4C8C-9BF7-292015277B15}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F6F1E7E7-AFC0-4C8C-9BF7-292015277B15}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F6F1E7E7-AFC0-4C8C-9BF7-292015277B15}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5F9066AA-5772-4721-9DA4-3430BC1B5DE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5F9066AA-5772-4721-9DA4-3430BC1B5DE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5F9066AA-5772-4721-9DA4-3430BC1B5DE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5F9066AA-5772-4721-9DA4-3430BC1B5DE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
